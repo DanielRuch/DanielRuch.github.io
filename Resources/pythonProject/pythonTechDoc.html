@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Daniel Ruch : Project Portfolio</title>
+    
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="../../style.css">
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-0 py-0 sticky-top" style="border-bottom: 4px solid lightseagreen; ">
+      <!-- Left Items-->
+      <a class="navbar-brand py-2 px-4 my-0" id="nav_title" href="../../index.html" style="background-color:  darkblue;">Daniel Ruch </a>
+      <h1>Project Portfolio</h1>
+      
+      <!-- Nav Tabs -->
+      <ul class="nav nav-tabs ml-3">
+        <li class="nav-item">
+          <a class="nav-link" href="pythonAnalysis.html"> Analysis <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="pythonTechDoc.html"> Technical Documentation <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <!-- Condensed Dropdown -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Create Dropdown-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown my-auto">
+              <a class="nav-link dropdown-toggle btn-primary bg-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <!-- Dropdown Items -->
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../vbaProject/vbaAnalysis.html">VBA Project</a>
+                <a class="dropdown-item" href="pythonAnalysis.html">Python Project</a>
+                <a class="dropdown-item" href="../pandasProject/pandasAnalysis.html">Pandas Project</a>
+              </div>
+            </li>
+          <!-- LinkedIn -->
+          <li class="nav-item active">
+              <a class="nav-link" href="https://www.linkedin.com/in/daniel-ruch/">
+                <img class="soc-med-icon" id="linkedin" src="../images/linkedinicon.png" alt="LinkedIn"/> 
+              </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- End NavBar -->
+    
+  </head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid" style="background-image: url(../images/python-project-bank.png); background-size: cover;">
+    <div class="container py-5">
+    </div>
+  </div>
+  <div class="row mx-auto">
+    <div class="col-md-12">
+      <div class="mx-5">
+        <h1> Project 2: Python Challenge - Technical Documentation</h1>
+        <p> To complete this project, a script was generated to loop through each dataset and generate key metrics. The type of analysis was similar for each dataset, but varied significantly in the approach to achieve it due to the different structures of the datasets. </p>
+      </div>
+    </div>
+  </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+
+<footer class="fixed-bottom" style="border-top: 4px solid lightseagreen">
+  <div class="py-5" style="background-color: darkblue;">
+    <div class="container-fluid">
+      <small class="mx-auto px-5" style="color: whitesmoke;"> Created using the Bootstrap framework. This website has its own repository, see it <a href="https://github.com/DanielRuch/DanielRuch.github.io"> here</a>! </small>
+    </div>
+  </div>
+  
+</footer>
+
+</html>

@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light my-0 py-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light my-0 py-0 sticky-top" style="border-bottom: 4px solid lightseagreen; ">
     <!-- Left Items-->
-    <a class="navbar-brand py-2 px-4 my-0" id="nav_title" href="index.html" style="background-color:  #0840a8;">Daniel Ruch </a>
+    <a class="navbar-brand py-2 px-4 my-0" id="nav_title" href="index.html" style="background-color:  darkblue;">Daniel Ruch </a>
     <h1>Project Portfolio</h1>
 
     <!-- Condensed Dropdown -->
@@ -29,15 +29,11 @@
             </a>
             <!-- Dropdown Items -->
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="VBA.html">VBA</a>
-              <a class="dropdown-item" href="#">Coming Soon</a>
+              <a class="dropdown-item" href="Resources/vbaProject/vbaAnalysis.html">VBA Project</a>
+              <a class="dropdown-item" href="Resources/pythonProject/pythonAnalysis.html">Python Project</a>
+              <a class="dropdown-item" href="Resources/pandasProject/pandasAnalysis.html">Pandas Project</a>
             </div>
           </li>
-        <!-- 
-        <li class="nav-item active my-auto">
-          <a class="nav-link" href="Comparison.html">Comparison <span class="sr-only">(current)</span></a>
-        </li>
-        -->
         <!-- LinkedIn -->
         <li class="nav-item active">
             <a class="nav-link" href="https://www.linkedin.com/in/daniel-ruch/">
@@ -47,8 +43,9 @@
       </ul>
     </div>
   </nav>
+  
   <!-- End NavBar -->
-  <div class="row p-1" style="background-color: lightseagreen;"></div>
+  
 </head>
 
 
@@ -58,47 +55,47 @@
     <div class="row my-5">
       <!-- VBA Project Card -->
       <div class="col-md-4 col-sm-12">
-        <div class="card mx-auto d-flex">
-          <a href="#"><img src="Resources/Project1/vbaDatasm.png" class="card-img-top" alt="VBA Project"></a>
+        <div class="card mx-auto d-flex h-100">
+          <a href="Resources/vbaProject/vbaAnalysis.html"><img src="Resources/images/vba-project-stockmarket.jpg" class="card-img-top" alt="VBA Project"></a>
           <div class="card-body">
             <h5 class="card-title">VBA Project</h5>
             <p class="card-text">Analysis of 2016 Stock Data</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#">Report</a></li>
-            <li class="list-group-item"><a href="#">Technical Documentation</a></li>
+            <li class="list-group-item"><a href="Resources/vbaProject/vbaAnalysis.html">Analysis</a></li>
+            <li class="list-group-item"><a href="Resources/vbaProject/vbaTechDoc.html">Technical Documentation</a></li>
             <li class="list-group-item"><a href="https://github.com/DanielRuch/VBA-Challenge">Repository</a></li>
           </ul>
         </div>
       </div>
       <!-- VBA Card End -->
-      <!-- Project 2 Card -->
+      <!-- Python Project Card -->
       <div class="col-md-4 col-sm-12">
-        <div class="card mx-auto d-flex">
-          <a class="mx-5" href="#"><img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" class="card-img-top" alt="Project 2"></a>
+        <div class="card mx-auto d-flex h-100">
+          <a href="Resources/pythonProject/pythonAnalysis.html"><img src="Resources/images/python-project-bank.png" class="card-img-top" alt="Python Project"></a>
           <div class="card-body">
-            <h5 class="card-title">Project 2</h5>
-            <p class="card-text">Coming Soon</p>
+            <h5 class="card-title">Python Project</h5>
+            <p class="card-text">Two-Part anaylsis: Bank Profits & Poll Data.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#">Report</a></li>
-            <li class="list-group-item"><a href="#">Technical Documentation</a></li>
+            <li class="list-group-item"><a href="Resources/pythonProject/pythonAnalysis.html">Analysis</a></li>
+            <li class="list-group-item"><a href="Resources/pythonProject/pythonTechDoc.html">Technical Documentation</a></li>
             <li class="list-group-item"><a href="https://github.com/DanielRuch/python-challenge">Repository</a></li>
           </ul>
         </div>
       </div>
-      <!-- Project 2 Card End -->
+      <!-- Python Project Card End -->
       <!-- Project 3 Card -->
       <div class="col-md-4 col-sm-12">
-        <div class="card mx-auto d-flex">
-          <a href="#"><img src="Resources/images/pandas-project-fantasy.png" class="card-img-top" alt="Project 2"></a>
+        <div class="card mx-auto d-flex h-100">
+          <a href="Resources/pandasProject/pandasAnalysis.html"><img src="Resources/images/pandas-project-fantasy.png" class="card-img-top" alt="Pandas Project"></a>
           <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
-            <p class="card-text">Coming Soon</p>
+            <h5 class="card-title">Pandas Project</h5>
+            <p class="card-text">Analysis of Fantasy Game Data</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="#">Report</a></li>
-            <li class="list-group-item"><a href="#">Technical Documentation</a></li>
+            <li class="list-group-item"><a href="Resources/pandasProject/pandasAnalysis.html">Analysis</a></li>
+            <li class="list-group-item"><a href="Resources/pandasProject/pandasTechDoc.html">Technical Documentation</a></li>
             <li class="list-group-item"><a href="https://github.com/DanielRuch/pandas-challenge">Repository</a></li>
           </ul>
         </div>
@@ -112,5 +109,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </div>
 </body>
+
+<footer class="fixed-bottom" style="border-top: 4px solid lightseagreen">
+  <div class="py-5" style="background-color: darkblue;">
+    <div class="container-fluid">
+      <small class="mx-auto px-5" style="color: whitesmoke;"> Created using the Bootstrap framework. This website has its own repository, see it <a href="https://github.com/DanielRuch/DanielRuch.github.io"> here</a>! </small>
+    </div>
+  </div>
+  
+</footer>
 
 </html>
